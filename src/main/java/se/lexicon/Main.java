@@ -3,7 +3,7 @@ package se.lexicon;
 
 // Special type of comment used to generate documentation.
 /**
- * Hello World
+ * TODO - Object, Methods, Loops
  */
 public class Main {
 
