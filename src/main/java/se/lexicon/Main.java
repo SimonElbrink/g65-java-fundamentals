@@ -165,6 +165,35 @@ public class Main {
 
 
 
+    // ### Java String ###
+
+        String firstName = "Simon";
+        String lastName = "Elbrink";
+//        String fullName = firstName + " " + lastName;
+        String fullName = firstName.concat(" " + lastName);
+
+        System.out.println("fullName = " + fullName);
+
+
+        String greeting = "Hello";
+
+//        greeting.concat(" World");
+       greeting = greeting.concat(" World");
+
+        System.out.println("greeting = " + greeting);
+
+        // https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
+        // https://www.geeksforgeeks.org/storage-of-string-in-java/
+
+
+        String str1 = "Simon"; //Instance 1 or Object 2
+        String str2 = "OCP"; // instance 2 or object 2
+
+        System.out.println(str1.toUpperCase());
+        System.out.println(str1);
+
+
+
 
 
 
