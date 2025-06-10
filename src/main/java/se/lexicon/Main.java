@@ -111,6 +111,71 @@ public class Main {
 
 
 
+        int age = 3;
+
+        if (age >= 18){
+            System.out.println("You are eligible to vote!");
+        }else{
+            System.out.println("You are NOT eligible to vote!");
+        }
+
+        int marks = 68;
+
+        if (marks >= 90){
+            System.out.println("Grade: A");
+        } else if (marks >= 80){
+            System.out.println("Grade: B");
+        } else if (marks >= 70) {
+            System.out.println("Grade: C");
+        } else if (marks >= 55 || marks <= 60) {
+            System.out.println("Grade: E");
+        } else {
+            System.out.println("Grade: F");
+        }
+
+
+        int day = 2;
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break; // The break statement is used to exit the switch block after a matching case has been executed.
+            // Without break, execution will continue to the subsequent cases (known as "fall-through").
+
+            default:
+                System.out.println("Invalid Day");
+
+        }
+
+        // Use if for Simple Decisions - when you need to evaluate a single condition.
+
+        // Use if-else for Two-Way Decisions - when you have one condition and an alternative.
+
+        // Use if-else-if Ladder for Multiple Conditions - when multiple conditions need to be checked in sequence.
+
+        // Use switch for Multiple Fixed Values:
+        // Use switch when comparing a variable against specific fixed values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
