@@ -4,7 +4,7 @@ package se.lexicon;
 // Special type of comment used to generate documentation.
 
 /**
- * TODO - Object, Methods, Loops
+ * Demo add things together! 😊
  */
 public class Main {
 
