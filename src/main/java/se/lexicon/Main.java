@@ -164,12 +164,12 @@ public class Main {
 
         // ### Java String ###
 
-        String firstName = "Simon";
-        String lastName = "Elbrink";
-//        String fullName = firstName + " " + lastName;
-        String fullName = firstName.concat(" " + lastName);
-
-        System.out.println("fullName = " + fullName);
+//        String firstName = "Simon";
+//        String lastName = "Elbrink";
+////        String fullName = firstName + " " + lastName;
+//        String fullName = firstName.concat(" " + lastName);
+//
+//        System.out.println("fullName = " + fullName);
 
 
         String greeting = "Hello";
@@ -188,6 +188,37 @@ public class Main {
 
         System.out.println(str1.toUpperCase());
         System.out.println(str1);
+
+
+        // ### Object ###
+
+        Person simon = new Person();
+        simon.firstName = "Simon";
+        simon.lastName = "Elbrink";
+        simon.age = 28;
+        simon.hobby = "Programming";
+
+        Person mehrdad = new Person();
+        mehrdad.firstName = "Mehrdad";
+        mehrdad.lastName = "Javan";
+        mehrdad.age = 40;
+        mehrdad.hobby = "Programming";
+
+
+        Person tobias = new Person();
+        tobias.firstName = "tobias";
+        tobias.lastName = "Engberg";
+        tobias.age = 47;
+        tobias.hobby = "Coding Books";
+
+
+        System.out.println(simon.firstName + " " + simon.lastName);
+
+        System.out.println(mehrdad.firstName + " " + mehrdad.lastName);
+
+
+
+
 
 
     }
