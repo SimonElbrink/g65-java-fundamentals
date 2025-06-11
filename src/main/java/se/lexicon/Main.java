@@ -221,41 +221,66 @@ public class Main {
         System.out.println(celsiusToFahrenheit(28));
 
 
-        System.out.println(MathOperations.add(40,50));
+        System.out.println(MathOperations.add(40, 50));
+
+
+        //Syntax: for(initialization; condition; increment/decrement)
+
+
+/*        for(int i = 1; i <= 5; i++){
+            System.out.println("Interation " + i);
+        }*/
+
+/*        for (int i = 1; i <= 10;i++){
+            if (i % 2 == 0){
+                System.out.println("Number: " + i);
+            }
+        }*/
+
+
+/*        for (int i = 1; i <= 10;i++){
+            if (i == 8){
+                System.out.println("Skipping printing number 8");
+                continue;
+            }
+            System.out.println("Number: " + i);
+        }*/
+
+        for (int i = 1; i <= 10; i++) {
+            if (i == 8) {
+                System.out.println("Stopping at number 8...");
+                break;
+            }
+            System.out.println("Number: " + i);
+        }
+
+        //For Later: For-Each Loop
+
 
     }
 
 
-    public static void displayMenu(){
+    public static void displayMenu() {
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
     }
 
-    public static int addition(int num1, int num2){
+    public static int addition(int num1, int num2) {
         return num1 + num2;
     }
 
-    public static void printSum(int num1, int num2){
+    public static void printSum(int num1, int num2) {
         int sum = num1 + num2;
         System.out.println(sum);
     }
 
-    public static double celsiusToFahrenheit(double celsius){
-        return(celsius * 9 / 5) + 32 ;
-    }
-    public static double fahrenheitToCelsius(double fahrenheit){
-        return(fahrenheit - 32) * 5 /9;
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9 / 5) + 32;
     }
 
-
-
-
-
-
-
-
-
-
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5 / 9;
+    }
 
 
 }
