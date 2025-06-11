@@ -3,17 +3,26 @@ package se.lexicon;
 public class Demo {
 
     public static void main(String[] args) {
-
-        int num1 = 5, num2 = 10;
-        int sum = num1 + num2;
-        System.out.println("Sum: " + sum);
-
-        num1 = 2;
-        num2 = 5;
-        sum = num1 + num2;
-        System.out.println("Sum: " + sum);
-
-
-
+        printMenu();
+        printMessage("Sum: " + add(2, 5));
     }
+
+
+    public static int add(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public static void printMessage(String message) {
+        System.out.println("\u001B[34m" + message + "\u001B[0m");
+    }
+
+    public static void printMenu() {
+        String RESET = "\u001B[0m";
+        String GREEN = "\u001B[32m";
+        System.out.println(GREEN + "Welcome to My App" + RESET);
+        System.out.println(GREEN + "1. Addition" + RESET);
+        System.out.println(GREEN + "2. Subtraction" + RESET);
+        System.out.println(GREEN + "3. Exit" + RESET);
+    }
+
 }
