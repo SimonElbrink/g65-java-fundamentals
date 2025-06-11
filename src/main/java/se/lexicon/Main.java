@@ -18,7 +18,7 @@ public class Main {
      * This is a Java Doc ( Documentation Comments ).
      * Used to create documentation for Java code.
      * These comments are processed by the Javadoc tool to generate HTML documentation for your program.
-     * https://www.baeldung.com/javadoc
+     * @see <a href="https://www.baeldung.com/javadoc">JavaDoc</<>
      */
 
 
