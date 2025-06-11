@@ -2,6 +2,7 @@ package se.lexicon;
 
 
 // Special type of comment used to generate documentation.
+
 /**
  * TODO - Object, Methods, Loops
  */
@@ -10,8 +11,8 @@ public class Main {
     // This is a single line comment
 
     /* This is a regular multi-line comment
-    * It spans multiple lines
-    */
+     * It spans multiple lines
+     */
 
     /**
      * This is a Java Doc ( Documentation Comments ).
@@ -109,21 +110,19 @@ public class Main {
         System.out.println("a <= b: " + (a <= b));
 
 
-
-
         int age = 3;
 
-        if (age >= 18){
+        if (age >= 18) {
             System.out.println("You are eligible to vote!");
-        }else{
+        } else {
             System.out.println("You are NOT eligible to vote!");
         }
 
         int marks = 68;
 
-        if (marks >= 90){
+        if (marks >= 90) {
             System.out.println("Grade: A");
-        } else if (marks >= 80){
+        } else if (marks >= 80) {
             System.out.println("Grade: B");
         } else if (marks >= 70) {
             System.out.println("Grade: C");
@@ -163,9 +162,7 @@ public class Main {
         // Use switch when comparing a variable against specific fixed values.
 
 
-
-
-    // ### Java String ###
+        // ### Java String ###
 
         String firstName = "Simon";
         String lastName = "Elbrink";
@@ -178,7 +175,7 @@ public class Main {
         String greeting = "Hello";
 
 //        greeting.concat(" World");
-       greeting = greeting.concat(" World");
+        greeting = greeting.concat(" World");
 
         System.out.println("greeting = " + greeting);
 
@@ -191,18 +188,6 @@ public class Main {
 
         System.out.println(str1.toUpperCase());
         System.out.println(str1);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
